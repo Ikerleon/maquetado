@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion </title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Schibsted+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&family=Playfair+Display&family=Schibsted+Grotesk:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--contenedor de iniciar sesion-->
+    <div class="Inicar_sesion">
+        <!--formulario para iniciar sesion-->
+        <form action="" id="form">
+            <h1 class="titulo"> Iniciar sesion</h1>
+            <div class="datos correo">
+                <input type="email" id="correo">
+                <label for="correo">Correo institucional</label>
+                <p class="mensajeError"></p>
+            </div>
+            <div class="datos contrasena">
+                <input type="password" id="contrasena">
+                <label for="contrasena">Contraseña</label>
+                <p class="mensajeError"></p>
+            </div>
+            <button class="boton" type="button" onclick="validacionIniciarsesion()">Iniciar sesion</button>
+            <p>¿Aun no te has registrado? <a href="registro.html">Registrarse</a></p>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
